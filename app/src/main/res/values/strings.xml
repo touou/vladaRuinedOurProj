@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">EnglishGram</string>
+
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+
+    <string name="login">Log In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="create_account">Create new account</string>
+
+    <string name="empty_field">Empty</string>
+
+    <string name="vocabulary">Vocabulary</string>
+    <string name="learn">Learn</string>
+    <string name="workouts">Workouts</string>
+    <string name="account">Account</string>
+    <string name="Name">Тфьу</string>
+    <string name="progress">Progress</string>
+    <string name="definition">Definition of the word</string>
+    <string name="word">Word</string>
+    <string name="add_new_word">Add new word</string>
+    <string name="IKNOW">Know</string>
+    <string name="TOLEARN">Learn</string>
+    <string name="SKIP">Skip</string>
+    <string name="rightAnswer">You are right</string>
+    <string name="wrongAnswer">Wrong answer</string>
+    <string name="next">next</string>
+    <string name="empty_learning_list">You have empty learning list</string>
+    <string name="out_of_words">Out of words</string>
+    <string name="we_have_no_new_words">We have no new words for you</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
