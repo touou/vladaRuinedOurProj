@@ -30,15 +30,15 @@
 
     <TextView
         android:id="@+id/definitionView0"
+        style="@style/SecondaryTextStyleRoboto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/stripe_training"
         android:layout_marginTop="10dp"
+        android:background="@drawable/button_style_standard"
         android:gravity="center"
         android:text="Definition of the word 0"
-        style="@style/SecondaryTextStyleRoboto"
-        tools:ignore="HardcodedText,MissingConstraints"
-        android:background="@drawable/button_style_standard"/>
+        app:layout_constraintTop_toBottomOf="@id/stripe_training"
+        tools:ignore="HardcodedText,MissingConstraints"/>
     <TextView
         android:id="@+id/definitionView1"
         android:layout_width="match_parent"
