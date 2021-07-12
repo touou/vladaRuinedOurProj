@@ -16,7 +16,6 @@
 
     <style name="HeadersTextStyle" parent="TextAppearance.AppCompat">
         <item name="android:textSize">32sp</item>
-
         <item name="android:textColor">@color/black</item>
     </style>
 
