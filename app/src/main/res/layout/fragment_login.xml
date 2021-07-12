@@ -15,7 +15,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         >
 
         <com.google.android.material.textfield.TextInputEditText
@@ -26,7 +25,7 @@
             android:padding="15dp"
             android:inputType="textEmailAddress"
             android:imeOptions="actionNext"
-            android:background="@drawable/button_style_input"
+
             />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -35,8 +34,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/ti_email"
-        app:passwordToggleEnabled="true"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        app:passwordToggleEnabled="true">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/et_password"
@@ -46,8 +44,7 @@
             android:layout_marginTop="10dp"
             android:padding="15dp"
             android:inputType="textPassword"
-            android:imeOptions="actionDone"
-            android:background="@drawable/button_style_input"/>
+            android:imeOptions="actionDone" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
@@ -73,7 +70,8 @@
         app:layout_constraintTop_toBottomOf="@id/btn_login"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:background="@drawable/button_style_standard"/>
+        android:background="@drawable/button_style_standard"
+        />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
