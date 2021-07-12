@@ -12,9 +12,9 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/word"
-        style="@style/HeadersTextStyle"
         android:textSize="24dp"
         android:textStyle="bold"
+        android:textColor="@color/black"
         tools:ignore="MissingConstraints" />
 
     <TextView
