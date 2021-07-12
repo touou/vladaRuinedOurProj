@@ -27,11 +27,7 @@
             android:layout_height="wrap_content"
             android:padding="15dp"
             android:inputType="textEmailAddress"
-<<<<<<< HEAD
             android:imeOptions="actionNext" />
-=======
-            android:imeOptions="actionNext"/>
->>>>>>> 425716809f59c70b69f96ff804f26c83e7f44f34
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -51,11 +47,7 @@
             android:layout_marginTop="10dp"
             android:padding="15dp"
             android:inputType="textPassword"
-<<<<<<< HEAD
             android:imeOptions="actionDone" />
-=======
-            android:imeOptions="actionDone"/>
->>>>>>> 425716809f59c70b69f96ff804f26c83e7f44f34
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
