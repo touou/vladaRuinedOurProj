@@ -12,10 +12,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-        app:layout_constraintBottom_toBottomOf="@id/stripe_wordstostudy_2"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@id/words_to_study_text"
-        app:layout_constraintStart_toStartOf="@id/stripe_wordstostudy"
-        app:layout_constraintTop_toBottomOf="@id/stripe_wordstostudy"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginBottom="90dp"
+        android:layout_marginTop="90dp"
         tools:itemCount="7"
         tools:listitem="@layout/item_word">
 
