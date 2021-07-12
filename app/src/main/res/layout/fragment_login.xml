@@ -26,7 +26,6 @@
             android:padding="15dp"
             android:inputType="textEmailAddress"
             android:imeOptions="actionNext"
-            android:background="@drawable/button_style_input"
             />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -46,8 +45,7 @@
             android:layout_marginTop="10dp"
             android:padding="15dp"
             android:inputType="textPassword"
-            android:imeOptions="actionDone"
-            android:background="@drawable/button_style_input"/>
+            android:imeOptions="actionDone"/>
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button

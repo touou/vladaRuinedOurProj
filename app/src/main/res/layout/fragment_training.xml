@@ -80,6 +80,7 @@
         app:layout_constraintBottom_toTopOf="@id/NextWordButton"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="10dp"
         android:text="@string/rightAnswer"
         style="@style/SecondaryTextStyleRoboto"
         android:visibility="invisible"/>
@@ -99,11 +100,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/next"
+        style="@style/SecondaryTextStyleRoboto"
         app:layout_constraintTop_toBottomOf="@id/definitionView3"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="100dp"
-        android:visibility="invisible"/>
+        android:background="@drawable/button_style_standard"
+        android:visibility="visible"/>
 
 
 
